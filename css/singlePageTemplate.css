@@ -277,7 +277,7 @@ ul li:hover a {
 /* illu overview */
 .banner_i1 {
 	background-color: #BABABA;
-	background-image: url("../../portfolio/002.jpg");
+	background-image: url("../002.jpg");
 	height: 400px;
 	background-attachment: fixed;
 	background-size:  100%;
@@ -286,7 +286,7 @@ ul li:hover a {
 }
 .banner_ye {
 	background-color: #BABABA;
-	background-image: url("../../portfolio/21.jpg");
+	background-image: url("../21.jpg");
 	height: 400px;
 	background-attachment: fixed;
 	background-size:  100%;
@@ -295,7 +295,7 @@ ul li:hover a {
 }
 .banner_ye2 {
 	background-color: #BABABA;
-	background-image: url("../../portfolio/jewelry/26.jpg");
+	background-image: url("../jewelry/26.jpg");
 	height: 400px;
 	background-attachment: fixed;
 	background-size:  100%;
