@@ -1,0 +1,737 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: source-sans-pro;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+/* Container */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
+}
+/* Navigation */
+header {
+	width: 100%;
+	height: 5%;
+	background-color: #BABABA;
+	border-bottom: 1px solid #BABABA;
+}
+.logo {
+	color: #fff;
+	font-weight: bold;
+	text-align: undefined;
+	width: 25%;
+	float: left;
+	margin-top: 15px;
+	margin-left: 25px;
+	letter-spacing: 4px;
+}
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #2C9AB7;
+}
+.chris{
+	margin-bottom: 0.5rem;
+  line-height: 1;
+	margin-left: auto;
+	margin-right: auto;
+	align-self: center;
+}
+.hero_header {
+	color:black;
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+	/*margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;*/
+	letter-spacing: 3px;
+	background-color: white;
+	width: 15%;
+	
+}
+.hero_header_illu {
+	color:black;
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+	/*margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;*/
+	letter-spacing: 3px;
+	background-color: transparent;
+	width: 20%;
+	
+}
+.hero_header_kubus {
+	color: #FF0004;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 3px;
+}
+.hero_header_cologne {
+	color: #000000;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 3px;
+}
+.news_updates {
+	color: #000000;
+	font-size: 20;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 3px;
+}
+/* Hero Section */
+.hero_illu {
+	background-image:url("file:///C:/Users/Christian%20Klefke/Desktop/chris%20port/portfolio/6.jpg");
+	/*height: auto;
+	max-width: auto;*/
+	background-size: 1600px 1000px;
+	background-position: center;
+	background-color: #B3B3B3;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.hero_cologne {
+	background-image:url("file:///C:/Users/Christian%20Klefke/Desktop/chris%20port/portfolio/0011%20-%20bigStreets-White-Cologne.jpg");
+	/*height: auto;
+	max-width: auto;*/
+	background-size: 1600px 1000px;
+	background-position: center;
+	background-color: #B3B3B3;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.hero_kubus {
+	background-image:url("file:///C:/Users/Christian%20Klefke/Desktop/chris%20port/portfolio/kubus/Zeichnung1_recover-Temp0007.png");
+	max-height:  auto;
+	max-width:  auto;
+	background-position: center;
+	background-color: #B3B3B3;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.hero_projects {
+	background-image:url("../../projecte-01/lampe/l4.jpg");
+	background-size: 90%;
+	height: auto;
+	width: auto;
+	background-position: center;
+	background-color: #B3B3B3;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.hero_lampe {
+	background-image:url("../../projecte-01/lampe/l1.jpg");
+	height: auto;
+	width: auto;
+	background-position: center;
+	background-color: #B3B3B3;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.light {
+	font-weight: bolder;
+	color: #000000;
+	
+		
+}
+.tagline {
+	text-align: center;
+	color: #000000;
+	margin: auto;
+	margin-top: 4px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background-color: white;
+	width: 15%;
+}
+.tagline_illu {
+	text-align: center;
+	color: #000000;
+	margin: auto;
+	margin-top: 4px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background-color: transparent;
+	width: 30%;
+}
+.tagline_cologne {
+	text-align: center;
+	color: #000000;
+	margin-top: 4px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.tagline_kubus {
+	text-align: center;
+	color: #FF0004;
+	margin-top: 4px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+/* About Section */
+.text_column {
+	width: 29%;
+	text-align: justify;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #A3A3A3;
+}
+.about {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+}
+/* Stats Gallery */
+.stats {
+	color: #717070;
+	margin-bottom: 5px;
+}
+.gallery {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #FFFFFF;
+	/* [disabled]min-width: 400px;
+*/
+	padding-bottom: 35px;
+	padding-top: 0px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+.thumbnail {
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+}
+.gallery .thumbnail h4 {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: #52BAD5;
+}
+.gallery .thumbnail p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #A3A3A3;
+}
+/* project overview */
+.banner_p1 {
+	background-color: #BABABA;
+	background-image: url("../../projecte-01/kubus/Christo_Paris(1).jpg");
+	height: 400px;
+	background-attachment: fixed;
+	background-size:  60%;
+	background-position: 0% 50%;
+	background-repeat: no-repeat;
+}
+.banner_p2 {
+	
+	background-color: #BABABA;
+	height: 400px;
+	background-position: left;
+	background-image: url("../../projecte-01/003.png");
+	background-attachment: fixed;
+	background-size:  60%;
+	background-repeat: no-repeat;
+}
+.banner_p3 {
+	
+	background-color: #BABABA;
+	height: 400px;
+	background-position: left;
+	background-image: url("../../projecte-01/lampe/l2.JPG");
+	background-attachment: fixed;
+	background-size:  60%;
+	border-image-width: auto;
+	background-repeat: no-repeat;
+}
+.banner_p4 {
+
+	background-color: #BABABA;
+	height: 400px;
+	background-position: left;
+	background-image: url("../../projecte-01/jewelry/25.jpg");
+	background-attachment: fixed;
+	background-size:  60%;
+	border-image-width: auto;
+	background-repeat: no-repeat;
+}
+.banner_p5 {
+	
+	background-color: #BABABA;
+	height: 400px;
+	background-position: left;
+	background-image: url("../../projecte-01/Illustrationen/2.jpg");
+	background-attachment: fixed;
+	background-size:  60%;
+	border-image-width: auto;
+	background-repeat: no-repeat;
+}
+/* Parallax Section */
+.banner_cologne {
+	background-color: #BABABA;
+	background-image: url("../../projecte-01/13.jpg");
+	height: 400px;
+	background-attachment: fixed;
+	margin: auto;
+	align-content: center;
+	background-size: 1800px 1800px;
+	background-repeat: no-repeat;
+}
+.banner {
+	background-color: #BABABA;
+	background-image: url("../../projecte-01/kubus/Christo_Paris(1).jpg") , url("../../projecte-01/kubus/Christo_Paris.jpg");
+	height: 400px;
+	background-attachment: fixed;
+	background-size: 500 500;
+	
+	background-repeat: no-repeat;
+}
+.banner2 {
+	background-color: #BABABA;
+	background-image: url("../../projecte-01/kubus/Christo_Paris.jpg");
+	height: 400px;
+	background-attachment: fixed;
+	background-size: 500 500;
+	
+	background-repeat: no-repeat;
+}
+.banner3 {
+	background-color: #BABABA;
+	background-image: url("../../projecte-01/kubus/Christo_Berlin_.jpg");
+	height: 400px;
+	background-attachment: fixed;
+	background-size: 500 500;
+	align-content:right;
+	background-repeat: no-repeat;
+}
+.parallax {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+	
+}
+.parallax_description {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	width: 30%;
+	float: right;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+/* More info */
+footer {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+}
+.footer_column {
+	width: 50%;
+	image-orientation: left;
+	border-image-width: auto;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+.footer_column_center {
+	width: 100%;
+	text-align: center;
+	align-self: center;
+	padding-top: 30px;
+	float: center;
+}
+footer .footer_column h3 {
+	color: #B3B3B3;
+	text-align: center;
+}
+footer .footer_column p {
+	color: #717070;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+footer .footer_column_center p {
+	color: #717070;
+	background-color: #FFFFFF;
+	width: 50%;
+	margin: auto;
+	align-items: center;
+}
+.cards {
+	width: 50%;
+	height: auto;
+	max-width: 400px;
+	max-height: auto;
+}.cards_end {
+	margin:auto;
+	align-self: center;
+	height: auto;
+	width: 16%;
+	max-width: 300;
+	max-height: 300;
+}
+footer .footer_column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #FEFEFE;
+	color: #C4C4C4;
+	cursor: pointer;
+}
+.insta {
+	width: 15%;
+	text-align: center;
+	font-size: 25px;
+	background-size: 10%;
+	color: white;
+	margin: auto;
+	align-content: center;
+	
+	
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+.footer_banner {
+	background-color: #B3B3B3;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+	margin-bottom: 0px;
+	background-image: url(../../projecte-01/images/pattern.png);
+	background-repeat: repeat;
+}
+footer {
+	display: inline-block;
+}
+.hidden {
+	display: none;
+}
+
+/* Mobile */
+@media (max-width: 320px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	display: none;
+}
+header nav ul {
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+}
+.text_column {
+	width: 100%;
+	text-align: justify;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 90%;
+	margin-top: 25px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 12px;
+	float: none;
+	text-align: center;
+}
+.banner {
+	background-color: #2D9AB7;
+	background-image: none;
+}
+.tagline {
+	margin-top: 20px;
+	line-height: 22px;
+	background-color: white;
+	background-size: auto;
+	
+}
+.hero_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+	background-color: white;
+	color: white;
+}
+}
+
+/* Small Tablets */
+@media (min-width: 321px)and (max-width: 767px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #043745;
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	overflow: auto;
+	display: inline-block;
+	background: #52bad5;
+}
+header nav ul {
+	padding: 0px;
+	float: none;
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 30%;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+.thumbnail {
+	width: 50%;
+}
+.parallax {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 20%;
+}
+.parallax_description {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	padding-top: 30px;
+}
+.banner {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.footer_column {
+	width: 100%;
+}
+}
+
+/* Small Desktops */
+@media (min-width: 768px) and (max-width: 1096px) {
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+.text_column {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.banner {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+}
+.news {
+}
+.tag {
+}
