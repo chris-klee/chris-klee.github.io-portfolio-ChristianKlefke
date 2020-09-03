@@ -136,7 +136,7 @@ ul li:hover a {
 	background-repeat: no-repeat
 }
 .hero_jewe {
-	background-image:url("../../portfolio/25.jpg");
+	background-image:url("../25.jpg");
 	/*height: auto;
 	max-width: auto;*/
 	background-size: 100%;
@@ -158,7 +158,7 @@ ul li:hover a {
 	padding-bottom: 150px;
 }
 .hero_kubus {
-	background-image:url("../kubus/Zeichnung1_recover-Temp0007.png");
+	background-image:url"../kubus/Zeichnung1_recover-Temp0007.png"();
 	max-height:  auto;
 	max-width:  auto;
 	background-position: center;
