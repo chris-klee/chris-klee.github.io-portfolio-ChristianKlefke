@@ -328,7 +328,7 @@ ul li:hover a {
 	background-color: #BABABA;
 	height: 400px;
 	background-position: left;
-	background-image: url("../lampe/l2.JPG");
+	background-image: url("../lampe/l2.jpg");
 	background-attachment: fixed;
 	background-size:  60%;
 	border-image-width: auto;
@@ -369,7 +369,7 @@ ul li:hover a {
 }
 .banner {
 	background-color: #BABABA;
-	background-image: url("../kubus/Christo_Paris(1).jpg"), url("../kubus/Christo_Paris.jpg");
+	background-image: url("../kubus/Christo_Paris(1).jpg");
 	height: 400px;
 	background-attachment: fixed;
 	background-size: 500 500;
